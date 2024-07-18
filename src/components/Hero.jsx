@@ -3,9 +3,9 @@ import img from "../assets/image.jpg";
 
 export const Hero = () => {
   return (
-    <div className="  mt-28 relative  ">
-      <div className="   px-24  py-20 ml-12  ">
-        <h1 className="text-white font-bold text-7xl ">
+    <div className="flex flex-col justify-center items-center  md:mt-28 relative px-3 md:py-5 md:flex-row md:justify-normal ">
+      <div className="flex-col  justify-center  md:px-24  py-20 md:ml-12   ">
+        <h1 className="text-white font-bold text-4xl md:text-7xl ">
           Web Development <br /> and Maintenance
         </h1>
         <span className=" text-sky-600 text-5xl font-semibold underline  decoration-4 underline-offset-8">
@@ -24,7 +24,7 @@ export const Hero = () => {
           Start a project
         </span>
       </div>
-      <div className="flex w-[370px] h-[650px] gap-5  overflow-hidden  absolute right-[180px] top-0 -mt-[170px]">
+      <div className="flex overflow-hidden justify-center w-[370px] h-[650px] gap-5  md:absolute right-[300px] top-0 md:-mt-[170px]  ">
         <div className="mt-16 space-y-8">
           <img className="w-24 h-[300px] rounded-full " src={img} alt="" />
           <img className="w-24 h-[300px] rounded-full " src={img} alt="" />
